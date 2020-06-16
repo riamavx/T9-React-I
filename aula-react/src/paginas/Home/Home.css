@@ -1,3 +1,13 @@
-.fundo{
-    background-color: red;
+.divPai{
+    text-align: center;
 }
+
+
+.divbtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
