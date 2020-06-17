@@ -16,7 +16,8 @@
 import React from 'react';
 
 function Button(props){
-return <button onClick ={props.clicar}>{props.texto}</button>
+return <button onClick ={props.clique}>{props.nomeBotao}</button>
+{/* <button onClick={()=> alert('oi')}> Clique aqui </button> */}
 }
 
 export default Button;
