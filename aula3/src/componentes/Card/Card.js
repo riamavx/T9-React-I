@@ -7,20 +7,37 @@
 
 
 
+// import React from 'react'
+// import reactLogo from '../../imagem/react-logo.png'
+
+// function Card(props) {
+//     return (
+//         <div>
+//             <img src={props.imagem}></img>
+//             <h1>{props.titulo}</h1>
+//             <h3>{props.subtitulo}</h3>
+//         </div>
+//     )
+
+// }
+// export default Card;
 
 
+//com Class:
 
 import React from 'react'
-import reactLogo from '../../imagem/react-logo.png'
+// import reactLogo from '../../imagem/react-logo.png'
 
-function Card(props) {
-    return (
-        <div>
-            <img src={props.imagem}></img>
-            <h1>{props.titulo}</h1>
-            <h3>{props.subtitulo}</h3>
-        </div>
-    )
-
+class Card extends React.Component{
+    render(){
+        return (
+            <div>
+                <img src={this.props.imagem}></img>
+                <h1>{this.props.titulo}</h1>
+                <h3>{this.props.subtitulo}</h3>
+            </div>
+        )
+    }
 }
+
 export default Card;
